@@ -1,0 +1,11 @@
+modLoader="javafml"
+loaderVersion="[28,)"
+license="All Rights Reserved"
+[[mods]]
+modId="jsonifycraft"
+version="${file.jarVersion}"
+displayName="JsonifyCraft"
+authors="Timothy Metcalfe (TimInc)"
+description='''
+Gives modpack makers the tools they need to add content to the game using JSON files.
+'''

@@ -39,6 +39,7 @@ public abstract class MCRegistry<T> {
             soundTypes.put("WOOD", SoundType.WOOD);
             soundTypes.put("GROUND", SoundType.GROUND);
             soundTypes.put("PLANT", SoundType.PLANT);
+            soundTypes.put("LILY_PADS", SoundType.LILY_PADS);
             soundTypes.put("STONE", SoundType.STONE);
             soundTypes.put("METAL", SoundType.METAL);
             soundTypes.put("GLASS", SoundType.GLASS);
@@ -57,8 +58,31 @@ public abstract class MCRegistry<T> {
             soundTypes.put("SWEET_BERRY_BUSH", SoundType.SWEET_BERRY_BUSH);
             soundTypes.put("CROP", SoundType.CROP);
             soundTypes.put("STEM", SoundType.STEM);
+            soundTypes.put("VINE", SoundType.VINE);
             soundTypes.put("NETHER_WART", SoundType.NETHER_WART);
             soundTypes.put("LANTERN", SoundType.LANTERN);
+            soundTypes.put("HYPHAE", SoundType.HYPHAE);
+            soundTypes.put("NYLIUM", SoundType.NYLIUM);
+            soundTypes.put("FUNGUS", SoundType.FUNGUS);
+            soundTypes.put("ROOT", SoundType.ROOT);
+            soundTypes.put("SHROOMLIGHT", SoundType.SHROOMLIGHT);
+            soundTypes.put("NETHER_VINE", SoundType.NETHER_VINE);
+            soundTypes.put("NETHER_VINE_LOWER_PITCH", SoundType.NETHER_VINE_LOWER_PITCH);
+            soundTypes.put("SOUL_SAND", SoundType.SOUL_SAND);
+            soundTypes.put("SOUL_SOIL", SoundType.SOUL_SOIL);
+            soundTypes.put("BASALT", SoundType.BASALT);
+            soundTypes.put("WART", SoundType.WART);
+            soundTypes.put("NETHERRACK", SoundType.NETHERRACK);
+            soundTypes.put("NETHER_BRICK", SoundType.NETHER_BRICK);
+            soundTypes.put("NETHER_SPROUT", SoundType.NETHER_SPROUT);
+            soundTypes.put("NETHER_ORE", SoundType.NETHER_ORE);
+            soundTypes.put("BONE", SoundType.BONE);
+            soundTypes.put("NETHERITE", SoundType.NETHERITE);
+            soundTypes.put("ANCIENT_DEBRIS", SoundType.ANCIENT_DEBRIS);
+            soundTypes.put("LODESTONE", SoundType.LODESTONE);
+            soundTypes.put("CHAIN", SoundType.CHAIN);
+            soundTypes.put("NETHER_GOLD", SoundType.NETHER_GOLD);
+            soundTypes.put("GILDED_BLACKSTONE", SoundType.GILDED_BLACKSTONE);
 
             return this;
         }

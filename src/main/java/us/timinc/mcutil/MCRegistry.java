@@ -20,7 +20,7 @@ public abstract class MCRegistry<T> {
 
         @Override
         public ToolType getFromName(String name) {
-            return ToolType.get(name);
+            return ToolType.get(name.toLowerCase());
         }
 
         @Override
@@ -197,6 +197,7 @@ public abstract class MCRegistry<T> {
             return materialColors.containsKey(name.toUpperCase());
         }
     }.setup();
+
     public static MCRegistry<ItemGroup> ITEM_GROUPS = new MCRegistry<ItemGroup>() {
         private Map<String, ItemGroup> itemGroups;
 
@@ -255,6 +256,7 @@ public abstract class MCRegistry<T> {
             materials.put("PLANTS", Material.PLANTS);
             materials.put("OCEAN_PLANT", Material.OCEAN_PLANT);
             materials.put("TALL_PLANTS", Material.TALL_PLANTS);
+            materials.put("NETHER_PLANTS", Material.NETHER_PLANTS);
             materials.put("SEA_GRASS", Material.SEA_GRASS);
             materials.put("WATER", Material.WATER);
             materials.put("BUBBLE_COLUMN", Material.BUBBLE_COLUMN);
@@ -272,6 +274,7 @@ public abstract class MCRegistry<T> {
             materials.put("SPONGE", Material.SPONGE);
             materials.put("SHULKER", Material.SHULKER);
             materials.put("WOOD", Material.WOOD);
+            materials.put("NETHER_WOOD", Material.NETHER_WOOD);
             materials.put("BAMBOO_SAPLING", Material.BAMBOO_SAPLING);
             materials.put("BAMBOO", Material.BAMBOO);
             materials.put("WOOL", Material.WOOL);
